@@ -2,11 +2,11 @@ import { useState } from 'react';
 import './panel.css';
 
 interface PanelControlProps {
-    opciones: string[];
-    onSeleccionar: (opcion: string) => void;
+  opciones: string[];
+  onSeleccionar: (opcion: string) => void;
 }
 
-const PanelOptions = function(props: PanelControlProps)  {
+const PanelOptions = function (props: PanelControlProps) {
   const [seleccionado, setSeleccionado] = useState(props.opciones[0]);
 
   const handleClick = (opcion: string) => {

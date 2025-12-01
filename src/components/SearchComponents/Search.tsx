@@ -64,4 +64,5 @@ const Search = (props : SearchProps) => {
 	);
 }
 
+
 export default Search;
